@@ -1,3 +1,8 @@
+This is updated version of the default Contiki-NG firmware to include __TSCH slotbonding__, implemented by Glenn Daneels (glenn.daneels@uantwerpen.be).
+
+An example of how this slotbonding implementation is used, can be found in the example __examples/6tisch/slotbonding__. To indicate slotbonding adjustments in the code and for easy (dis-)activation, throughout the firmware the __TSCH\_SLOTBONDING__ macro is used.
+
+
 <img src="https://github.com/contiki-ng/contiki-ng.github.io/blob/master/images/logo/Contiki_logo_2RGB.png" alt="Logo" width="256">
 
 # Contiki-NG: The OS for Next Generation IoT Devices
